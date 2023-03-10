@@ -21,5 +21,4 @@ interface CambioDao {
     @Query("select * from Cambio order by codeMonedaCambio")
     fun getAllCambioCursor(): Cursor
 
-
 }

@@ -19,11 +19,8 @@ private lateinit var db: MiDbMonedas
 @RequiresApi(Build.VERSION_CODES.O)
 val currentDate = LocalDateTime.now()
 class saveWorker(ctx: Context, params: WorkerParameters) : Worker(ctx, params) {
-
-
     @RequiresApi(Build.VERSION_CODES.O)
     override fun doWork(): Result {
-
         return try {
             GlobalScope.launch {
                 db = (applicationContext as MiApplication).database
