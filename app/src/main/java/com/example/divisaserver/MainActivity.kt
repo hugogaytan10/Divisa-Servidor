@@ -2,7 +2,7 @@ package com.example.divisaserver
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.appmonedaserver.R
+import com.example.divisaserver.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.appmonedaserver'
+    namespace 'com.example.divisaserver'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.appmonedaserver"
+        applicationId "com.example.divisaserver"
         minSdk 24
         targetSdk 33
         versionCode 1
