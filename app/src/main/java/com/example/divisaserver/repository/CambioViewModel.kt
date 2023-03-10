@@ -1,4 +1,4 @@
-package com.example.appmonedaserver.repository
+package com.example.divisaserver.repository
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel

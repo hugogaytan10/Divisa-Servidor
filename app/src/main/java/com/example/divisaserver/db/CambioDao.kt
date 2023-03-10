@@ -1,4 +1,4 @@
-package com.example.appmonedaserver.db
+package com.example.divisaserver.db
 
 import android.database.Cursor
 import androidx.room.Dao

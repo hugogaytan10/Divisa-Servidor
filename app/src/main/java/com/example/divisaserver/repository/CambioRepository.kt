@@ -1,6 +1,6 @@
-package com.example.appmonedaserver.repository
+package com.example.divisaserver.repository
 
-import com.example.appmonedaserver.db.CambioDao
+import com.example.divisaserver.db.CambioDao
 import com.example.divisaserver.db.Cambio
 import kotlinx.coroutines.flow.Flow
 

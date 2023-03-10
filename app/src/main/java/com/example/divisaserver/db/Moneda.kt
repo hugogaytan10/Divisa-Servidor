@@ -1,8 +1,7 @@
-package com.example.appmonedaserver.db
+package com.example.divisaserver.db
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import com.squareup.moshi.Json
 
 @Entity
 data class Moneda (

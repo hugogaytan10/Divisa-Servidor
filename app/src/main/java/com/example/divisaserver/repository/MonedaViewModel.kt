@@ -1,10 +1,10 @@
-package com.example.appmonedaserver.repository
+package com.example.divisaserver.repository
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.asLiveData
-import com.example.appmonedaserver.db.Moneda
+import com.example.divisaserver.db.Moneda
 
 class MonedaViewModel(private val repositoryMoneda: MonedaRepository) : ViewModel() {
     val allMoneda : LiveData<List<Moneda>> = repositoryMoneda.allMonedas.asLiveData()

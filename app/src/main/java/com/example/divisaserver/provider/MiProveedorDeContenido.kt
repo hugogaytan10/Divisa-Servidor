@@ -10,9 +10,9 @@ import com.example.divisaserver.db.MiDbMonedas
 
 private val sUriMatcher = UriMatcher(UriMatcher.NO_MATCH).apply {
 
-    addURI("com.example.appmonedaserver", "cambios", 1)
-    addURI("com.example.appmonedaserver", "cambios/#", 2)
-    addURI("com.example.appmonedaserver", "cambios/*", 3)
+    addURI("com.example.divisacliente", "cambios", 1)
+    addURI("com.example.divisacliente", "cambios/#", 2)
+    addURI("com.example.divisacliente", "cambios/*", 3)
 }
 
 class MiProveedorDeContenido : ContentProvider() {

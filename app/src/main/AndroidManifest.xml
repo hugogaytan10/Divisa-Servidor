@@ -19,7 +19,7 @@
         tools:targetApi="31">
 
         <provider
-            android:authorities="com.example.appmonedaserver"
+            android:authorities="com.example.divisaserver"
             android:name="com.example.divisaserver.provider.MiProveedorDeContenido"
             android:enabled="true"
             android:exported="true" >

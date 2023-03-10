@@ -1,8 +1,8 @@
-package com.example.appmonedaserver.repository
+package com.example.divisaserver.repository
 
 
-import com.example.appmonedaserver.db.Moneda
-import com.example.appmonedaserver.db.MonedaDao
+import com.example.divisaserver.db.Moneda
+import com.example.divisaserver.db.MonedaDao
 import kotlinx.coroutines.flow.Flow
 
 class MonedaRepository(private val monedaDao: MonedaDao) {
